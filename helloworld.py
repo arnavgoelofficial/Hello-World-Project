@@ -1,1 +1,2 @@
-print("Hello I am Sad BOi");
+if __name__ ='__main__';
+  print("Hello I am a new Program");
