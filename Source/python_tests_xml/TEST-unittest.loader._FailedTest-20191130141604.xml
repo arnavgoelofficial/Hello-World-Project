@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<testsuite errors="2" failures="0" name="unittest.loader._FailedTest-20191130141604" tests="2" time="0.000">
+	<testcase classname="unittest.loader._FailedTest" name="test_addbook" time="0.000">
+		<error message="Failed to import test module: test_addbook
+Traceback (most recent call last):
+  File &quot;C:\Users\ArnavG\AppData\Local\Programs\Python\Python37-32\lib\unittest\loader.py&quot;, line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File &quot;C:\Users\ArnavG\AppData\Local\Programs\Python\Python37-32\lib\unittest\loader.py&quot;, line 377, in _get_module_from_name
+    __import__(name)
+  File &quot;D:\Google CLoud Class\PyMicroservices-master\Source\test_addbook.py&quot;, line 3, in &lt;module&gt;
+    from book import Book
+ModuleNotFoundError: No module named 'book'
+" type="ImportError">
+<![CDATA[Traceback (most recent call last):
+ImportError: Failed to import test module: test_addbook
+Traceback (most recent call last):
+  File "C:\Users\ArnavG\AppData\Local\Programs\Python\Python37-32\lib\unittest\loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Users\ArnavG\AppData\Local\Programs\Python\Python37-32\lib\unittest\loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "D:\Google CLoud Class\PyMicroservices-master\Source\test_addbook.py", line 3, in <module>
+    from book import Book
+ModuleNotFoundError: No module named 'book'
+
+]]>		</error>
+	</testcase>
+	<testcase classname="unittest.loader._FailedTest" name="test_delbook" time="0.000">
+		<error message="Failed to import test module: test_delbook
+Traceback (most recent call last):
+  File &quot;C:\Users\ArnavG\AppData\Local\Programs\Python\Python37-32\lib\unittest\loader.py&quot;, line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File &quot;C:\Users\ArnavG\AppData\Local\Programs\Python\Python37-32\lib\unittest\loader.py&quot;, line 377, in _get_module_from_name
+    __import__(name)
+  File &quot;D:\Google CLoud Class\PyMicroservices-master\Source\test_delbook.py&quot;, line 3, in &lt;module&gt;
+    from book import Book
+ModuleNotFoundError: No module named 'book'
+" type="ImportError">
+<![CDATA[Traceback (most recent call last):
+ImportError: Failed to import test module: test_delbook
+Traceback (most recent call last):
+  File "C:\Users\ArnavG\AppData\Local\Programs\Python\Python37-32\lib\unittest\loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Users\ArnavG\AppData\Local\Programs\Python\Python37-32\lib\unittest\loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "D:\Google CLoud Class\PyMicroservices-master\Source\test_delbook.py", line 3, in <module>
+    from book import Book
+ModuleNotFoundError: No module named 'book'
+
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

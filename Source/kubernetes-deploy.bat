@@ -1,4 +1,6 @@
-SET PATH=%PATH%;"C:\Users\Sanya Kapoor\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin"
-SET IMAGE_NAME=gcr.io/compile-microservices/gpymicro-image:%BUILD_NUMBER%
-cd "D:\Moodle\Sem 5\Cloud\PyMicroservices-master\Source"
-kubectl set image deployment/py-gmicro py-gmicro=%IMAGE_NAME%
+kubernetes-deploy
+
+SET PATH=%PATH%;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin
+SET IMAGE_NAME=gcr.io/arnav-cloudtest/image1:%BUILD_NUMBER%
+cd D:\Google CLoud Class\PyMicroservices-master\Source
+kubectl set image deployment/image1 image1=%IMAGE_NAME%
